@@ -1,0 +1,12 @@
+E:\Param-Dotnet-Practicum\Param-Dotnet-Practicum\Week1\Week1.Service\bin\Debug\net5.0\Week1.Service.deps.json
+E:\Param-Dotnet-Practicum\Param-Dotnet-Practicum\Week1\Week1.Service\bin\Debug\net5.0\Week1.Service.dll
+E:\Param-Dotnet-Practicum\Param-Dotnet-Practicum\Week1\Week1.Service\bin\Debug\net5.0\Week1.Service.pdb
+E:\Param-Dotnet-Practicum\Param-Dotnet-Practicum\Week1\Week1.Service\obj\Debug\net5.0\Week1.Service.csproj.AssemblyReference.cache
+E:\Param-Dotnet-Practicum\Param-Dotnet-Practicum\Week1\Week1.Service\obj\Debug\net5.0\Week1.Service.GeneratedMSBuildEditorConfig.editorconfig
+E:\Param-Dotnet-Practicum\Param-Dotnet-Practicum\Week1\Week1.Service\obj\Debug\net5.0\Week1.Service.AssemblyInfoInputs.cache
+E:\Param-Dotnet-Practicum\Param-Dotnet-Practicum\Week1\Week1.Service\obj\Debug\net5.0\Week1.Service.AssemblyInfo.cs
+E:\Param-Dotnet-Practicum\Param-Dotnet-Practicum\Week1\Week1.Service\obj\Debug\net5.0\Week1.Service.csproj.CoreCompileInputs.cache
+E:\Param-Dotnet-Practicum\Param-Dotnet-Practicum\Week1\Week1.Service\obj\Debug\net5.0\Week1.Service.dll
+E:\Param-Dotnet-Practicum\Param-Dotnet-Practicum\Week1\Week1.Service\obj\Debug\net5.0\refint\Week1.Service.dll
+E:\Param-Dotnet-Practicum\Param-Dotnet-Practicum\Week1\Week1.Service\obj\Debug\net5.0\Week1.Service.pdb
+E:\Param-Dotnet-Practicum\Param-Dotnet-Practicum\Week1\Week1.Service\obj\Debug\net5.0\ref\Week1.Service.dll

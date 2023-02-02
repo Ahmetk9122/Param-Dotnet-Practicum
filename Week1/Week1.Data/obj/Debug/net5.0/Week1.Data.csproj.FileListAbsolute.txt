@@ -1,0 +1,12 @@
+E:\Param-Dotnet-Practicum\Param-Dotnet-Practicum\Week1\Week1.Data\bin\Debug\net5.0\Week1.Data.deps.json
+E:\Param-Dotnet-Practicum\Param-Dotnet-Practicum\Week1\Week1.Data\bin\Debug\net5.0\Week1.Data.dll
+E:\Param-Dotnet-Practicum\Param-Dotnet-Practicum\Week1\Week1.Data\bin\Debug\net5.0\Week1.Data.pdb
+E:\Param-Dotnet-Practicum\Param-Dotnet-Practicum\Week1\Week1.Data\obj\Debug\net5.0\Week1.Data.csproj.AssemblyReference.cache
+E:\Param-Dotnet-Practicum\Param-Dotnet-Practicum\Week1\Week1.Data\obj\Debug\net5.0\Week1.Data.GeneratedMSBuildEditorConfig.editorconfig
+E:\Param-Dotnet-Practicum\Param-Dotnet-Practicum\Week1\Week1.Data\obj\Debug\net5.0\Week1.Data.AssemblyInfoInputs.cache
+E:\Param-Dotnet-Practicum\Param-Dotnet-Practicum\Week1\Week1.Data\obj\Debug\net5.0\Week1.Data.AssemblyInfo.cs
+E:\Param-Dotnet-Practicum\Param-Dotnet-Practicum\Week1\Week1.Data\obj\Debug\net5.0\Week1.Data.csproj.CoreCompileInputs.cache
+E:\Param-Dotnet-Practicum\Param-Dotnet-Practicum\Week1\Week1.Data\obj\Debug\net5.0\Week1.Data.dll
+E:\Param-Dotnet-Practicum\Param-Dotnet-Practicum\Week1\Week1.Data\obj\Debug\net5.0\refint\Week1.Data.dll
+E:\Param-Dotnet-Practicum\Param-Dotnet-Practicum\Week1\Week1.Data\obj\Debug\net5.0\Week1.Data.pdb
+E:\Param-Dotnet-Practicum\Param-Dotnet-Practicum\Week1\Week1.Data\obj\Debug\net5.0\ref\Week1.Data.dll

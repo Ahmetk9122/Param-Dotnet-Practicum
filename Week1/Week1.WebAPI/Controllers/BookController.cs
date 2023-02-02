@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using Week1.Data;
 using Week1.Model.Entity;
+using System.Linq;
 
 namespace Week1.WebAPI
 {
@@ -10,9 +11,11 @@ namespace Week1.WebAPI
     [ApiController]
     public class BookController : ControllerBase
     {
-
+        [HttpGet]
         public List<Book> GetBooks()
         {
-            var bookList = BookList.OrderBy(x=>x.Id).ToList();
+            var bookList = BookList.OrderBy(x => x.Id).ToList();
+            return bookList;
+        }
     }
 }

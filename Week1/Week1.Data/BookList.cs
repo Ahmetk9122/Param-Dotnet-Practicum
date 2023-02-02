@@ -7,9 +7,9 @@ using Week1.Model.Entity;
 
 namespace Week1.Data
 {
-    public class BookList
+    public class BookList: List<Book>
     {
-        static List<Book> Main(BookList[] args)
+        public List<Book> Main()
         {
          Book book1= new Book
             {
@@ -54,6 +54,11 @@ namespace Week1.Data
             BookList.Add(book3);
             BookList.Add(book4);
             return BookList;
+        }
+
+        public static object OrderBy(Func<object, object> p)
+        {
+            throw new NotImplementedException();
         }
     }
 }

@@ -10,3 +10,6 @@ E:\Param-Dotnet-Practicum\Param-Dotnet-Practicum\Week1\Week1.Data\obj\Debug\net5
 E:\Param-Dotnet-Practicum\Param-Dotnet-Practicum\Week1\Week1.Data\obj\Debug\net5.0\refint\Week1.Data.dll
 E:\Param-Dotnet-Practicum\Param-Dotnet-Practicum\Week1\Week1.Data\obj\Debug\net5.0\Week1.Data.pdb
 E:\Param-Dotnet-Practicum\Param-Dotnet-Practicum\Week1\Week1.Data\obj\Debug\net5.0\ref\Week1.Data.dll
+E:\Param-Dotnet-Practicum\Param-Dotnet-Practicum\Week1\Week1.Data\bin\Debug\net5.0\Week1.Model.dll
+E:\Param-Dotnet-Practicum\Param-Dotnet-Practicum\Week1\Week1.Data\bin\Debug\net5.0\Week1.Model.pdb
+E:\Param-Dotnet-Practicum\Param-Dotnet-Practicum\Week1\Week1.Data\obj\Debug\net5.0\Week1.Data.csproj.CopyComplete

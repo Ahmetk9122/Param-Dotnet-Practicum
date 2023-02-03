@@ -7,7 +7,7 @@ using Week1.Model.Entity;
 
 namespace Week1.Data
 {
-    public class BookList: List<Book>
+    public class BookList
     {
         public List<Book> Main()
         {

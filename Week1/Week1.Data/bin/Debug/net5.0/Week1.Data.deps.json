@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v5.0": {
       "Week1.Data/1.0.0": {
+        "dependencies": {
+          "Week1.Model": "1.0.0"
+        },
         "runtime": {
           "Week1.Data.dll": {}
+        }
+      },
+      "Week1.Model/1.0.0": {
+        "runtime": {
+          "Week1.Model.dll": {}
         }
       }
     }
   },
   "libraries": {
     "Week1.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Week1.Model/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

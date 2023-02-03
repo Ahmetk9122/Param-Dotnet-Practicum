@@ -34,6 +34,8 @@
       "Week1.WebAPI/1.0.0": {
         "dependencies": {
           "Swashbuckle.AspNetCore": "5.6.3",
+          "Week1.Data": "1.0.0",
+          "Week1.Model": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "5.0.0.0",
@@ -382,6 +384,25 @@
         },
         "compile": {
           "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {}
+        }
+      },
+      "Week1.Data/1.0.0": {
+        "dependencies": {
+          "Week1.Model": "1.0.0"
+        },
+        "runtime": {
+          "Week1.Data.dll": {}
+        },
+        "compile": {
+          "Week1.Data.dll": {}
+        }
+      },
+      "Week1.Model/1.0.0": {
+        "runtime": {
+          "Week1.Model.dll": {}
+        },
+        "compile": {
+          "Week1.Model.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
@@ -2131,6 +2152,16 @@
       "sha512": "sha512-BPvcPxQRMsYZ3HnYmGKRWDwX4Wo29WHh14Q6B10BB8Yfbbcza+agOC2UrBFA1EuaZuOsFLbp6E2+mqVNF/Je8A==",
       "path": "swashbuckle.aspnetcore.swaggerui/5.6.3",
       "hashPath": "swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+    },
+    "Week1.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Week1.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
       "type": "referenceassembly",

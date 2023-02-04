@@ -11,12 +11,13 @@ namespace Week1.Model.Entity
     {
         [Required]
         public int Id { get; set; }
-        [Required]
+
+       [Required(ErrorMessage = "Title is required.")]
         public string Title { get; set; }
         public string Description { get; set; }
-        [Required]
+        [Required(ErrorMessage = "GenreId is required.")]
         public int GenreId { get; set; }
-        [Required]
+        [Required(ErrorMessage = "PageCount is required.")]
         public int PageCount { get; set; }
         public DateTime PublishDate { get; set; }
 

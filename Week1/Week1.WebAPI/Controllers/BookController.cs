@@ -5,6 +5,7 @@ using Week1.Data;
 using Week1.Model.Entity;
 using System.Linq;
 using System;
+using System.Threading.Tasks;
 
 namespace Week1.WebAPI
 {
@@ -12,14 +13,15 @@ namespace Week1.WebAPI
     [ApiController]
     public class BookController : ControllerBase
     {
-
+        
         [HttpGet]
-        public  List<Book> GetBooks()
+        public async Task<IActionResult> GetBooks()
         {
 
             var bookList = BookList.OrderBy(book => book.Id).ToList();
-            
-            return bookList;
+            if (bookList.Count == 0)
+                return BadRequest();
+                return Ok(bookList);
 
         }
         [HttpGet("{id}")]
@@ -67,20 +69,32 @@ namespace Week1.WebAPI
         {
             var book = BookList.SingleOrDefault(x => x.Id == id);
             if (book is null)
-                return BadRequest();
+                return NoContent();
 
             BookList.Remove(book);
             return Ok();
         }
         [HttpPatch("{id}")]
-       /* public IActionResult PatchBook(int id, [FromBody] Book updatedBook)
+        public async Task<IActionResult> PatchBook(int id, [FromBody] Book updatedBook)
         {
             var book = BookList.SingleOrDefault(x => x.Id == id);
             if (book is null)
                 return BadRequest();
 
+            book.GenreId = updatedBook.GenreId != default ? updatedBook.GenreId : book.GenreId;
+            book.Title = updatedBook.Title != default ? updatedBook.Title : book.Title;
+            book.PageCount = updatedBook.PageCount != default ? updatedBook.PageCount : book.PageCount;
+            book.PublishDate = updatedBook.PublishDate != default ? updatedBook.PublishDate : book.PublishDate;
 
-        }*/
+            return Ok();
+
+        }
+        [HttpGet("[action]")]
+        public async Task<IActionResult> GetToDescending()
+        {
+            var bookList = BookList.OrderByDescending(book => book.Title).ToList();
+            return Ok(bookList);
+        }
 
 
         #region BookData
